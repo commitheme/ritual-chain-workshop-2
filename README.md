@@ -1,4 +1,31 @@
 # Ritual Predict
+Bootcamp Level 2 – Completed Assignment
+
+This is my fork of the official self-resolving prediction market workshop.
+
+### Project Description
+A binary prediction market where resolution happens automatically.  
+The Ritual Scheduler triggers the contract at a fixed block.  
+The contract then uses HTTP and jq precompiles to read external data and settle the market.
+
+### Topics Covered in This Assignment
+- Market creation and parameter setting
+- Block-based deadline calculation
+- Automatic scheduling of resolution
+- Secure data fetching inside TEE
+- Retry logic (three attempts)
+- Invalid status and full refunds
+- Proportional claim mechanism
+
+### Implementation Status
+All contracts and scripts have been carefully reviewed.  
+Because the public testnet is already closed, the project is prepared and waiting for mainnet.
+
+### Repository Structure
+- hardhat/contracts – main logic
+- hardhat/scripts – deploy and helper scripts
+- tests – comprehensive test suite with mocks
+# Ritual Predict
 
 A self-resolving binary prediction market on [Ritual Chain](https://docs.ritualfoundation.org).
 
